@@ -1,8 +1,8 @@
-import { MarketsModel } from '../types';
+import { MarketDetailModel } from '../types';
 
 export default interface MarketsStoreModel {
-  data: MarketsModel[];
+  data: MarketDetailModel[];
   actions: {
-    setData: (data: MarketsModel[]) => void;
+    setData: (data: MarketDetailModel[]) => void;
   };
 }
