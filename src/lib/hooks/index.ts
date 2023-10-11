@@ -1,3 +1,1 @@
-export * from './useAuth';
-
-export { default } from './useWindowSize';
+export { default as usePagination } from './usePagination';
